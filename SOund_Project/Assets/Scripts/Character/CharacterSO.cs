@@ -7,4 +7,5 @@ public class CharacterSO : ScriptableObject
 {
     public float stepDelay;
     public SoundSO stepSound;
+    public Color color;
 }

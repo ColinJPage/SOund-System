@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stepDelay: 0.4
   stepSound: {fileID: 11400000, guid: ea198a492c0149043a7fd516e24e3be6, type: 2}
+  color: {r: 0.5150944, g: 0.93277884, b: 1, a: 1}

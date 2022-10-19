@@ -10,5 +10,6 @@ public class Character : MonoBehaviour
     {
         GetComponent<SoundRepeater>().sound = characterSO.stepSound;
         GetComponent<SoundRepeater>().stepDelay = characterSO.stepDelay;
+        GetComponentInChildren<Renderer>().material.color = characterSO.color;
     }
 }
