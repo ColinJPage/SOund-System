@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 744bcc8b40c778e4a8330c4c283c3def, type: 3}
   m_Name: Scamps
   m_EditorClassIdentifier: 
-  stepDelay: 0.7
+  stepDelay: 0.4
   stepSound: {fileID: 11400000, guid: ea198a492c0149043a7fd516e24e3be6, type: 2}

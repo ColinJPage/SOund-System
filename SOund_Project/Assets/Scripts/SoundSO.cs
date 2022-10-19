@@ -5,13 +5,13 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "SO/Sound")]
 public class SoundSO : ScriptableObject
 {
-    public AudioClip[] clips;
+    [SerializeField] private AudioClip[] clips;
 
-    public float baseVolume = 1f;
-    public float volumeVariation = 0.1f;
+    [SerializeField] private float baseVolume = 1f;
+    [SerializeField] private float volumeVariation = 0.1f;
 
-    public float basePitch = 1f;
-    public float pitchVariation = 0.1f;
+    [SerializeField] private float basePitch = 1f;
+    [SerializeField] private float pitchVariation = 0.1f;
     
     public Transform Play(Vector3 position)
     {

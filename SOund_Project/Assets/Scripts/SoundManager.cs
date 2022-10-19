@@ -21,7 +21,7 @@ public class SoundManager : MonoBehaviour
 
     private static AudioSource GetNewSource()
     {
-        var source = new GameObject().AddComponent<AudioSource>();
+        var source = new GameObject("Sound").AddComponent<AudioSource>();
         source.spatialBlend = 1f;
         return source;
     }
